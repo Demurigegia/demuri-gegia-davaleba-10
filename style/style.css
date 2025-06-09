@@ -123,6 +123,24 @@ header > div > a {
     padding-top: 9px;
 }
 
-@media only screen and (max-width: 845px) {
-  
+@media only screen and (min-width: 600px) and (max-width: 845px)  {
+  header > img {
+    margin-left: 50px;
+  }
+  header > div {
+    display: none;
+  } 
+  header > i {
+    margin-top: 25px;
+  }
+  .container-name > h3 {
+    width: 10px;
+    width: 10px;
+  }
+}
+
+@media only screen and (min-width: 845px) and (max-width: 2000px)  {
+    #fa {
+        display: none;
+    }
 }
